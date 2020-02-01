@@ -17,8 +17,9 @@ function C1() {
 function C2(props) {
     return (
         <div>
-            {props.country}, {props.state}
+            {props.country}{props.state}
             <p>{props.children}</p>
+            <p>{props.name} {props.age}</p>
         </div>        
     );
 }
